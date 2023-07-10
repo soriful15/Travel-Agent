@@ -24,7 +24,7 @@ const BlogPost = () => {
    <img src={blogPic1} className='w-full' alt="" />
    <p className='text-[#FFFFFF] text-[20px] absolute bg-[#FF3B00] top-5 left-5 px-3 py-1 rounded-xl'>Streem</p>
    </div>
-    <div className='mt-5'>
+    <div className='mt-5 px-2'>
        <div className='flex items-center gap-2'>
        <img src={blogPic4} alt="" />
         <p className='text-[#645E5E]'>June 31th by Admin</p>
@@ -38,7 +38,7 @@ const BlogPost = () => {
    <img src={blogPic2} className='w-full' alt="" />
    <p className='text-[#FFFFFF] text-[20px] absolute bg-[#FF3B00] top-5 left-5 px-3 py-1 rounded-xl'>Streem</p>
    </div>
-    <div className='mt-5'>
+    <div className='mt-5 px-2'>
        <div className='flex items-center gap-2'>
        <img src={blogPic5} alt="" />
         <p className='text-[#645E5E]'>June 31th by Admin</p>
@@ -52,7 +52,7 @@ const BlogPost = () => {
    <img src={blogPic3} className='w-full' alt="" />
    <p className='text-[#FFFFFF] text-[20px] absolute bg-[#544E4E] top-5 left-5 px-3 py-1 rounded-xl'>Press</p>
    </div>
-    <div className='mt-5'>
+    <div className='mt-5 px-2'>
        <div className='flex items-center gap-2'>
        <img src={blogPic6} alt="" />
         <p  className='text-[#645E5E]'>June 31th by Admin</p>
