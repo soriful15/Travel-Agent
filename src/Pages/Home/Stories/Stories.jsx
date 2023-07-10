@@ -43,7 +43,7 @@ const Stories = () => {
                         <img src={pic2} className='w-full' alt="" />
                     </div>
                     <div className='relative'>
-                        <div className='absolute top-48 left-36 lg:top-28 md:top-24  lg:left-28 md:left-20'>
+                        <div className='absolute top-48 left-36 lg:top-32 md:top-24  lg:left-28 md:left-20'>
                             <img src={flag2} alt="" />
                             <p className='text-4xl text-white '>Greece</p>
                         </div>
