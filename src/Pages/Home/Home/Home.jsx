@@ -4,6 +4,7 @@ import Destinations from '../Destinations/Destinations';
 import Stories from '../Stories/Stories';
 import Section4 from '../section4/Section4';
 import TestimonialsAndReview from '../TestimonialsAndReview/TestimonialsAndReview';
+import BlogPost from '../BlogPost/BlogPost';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <Stories></Stories>
             <Section4></Section4>
             <TestimonialsAndReview></TestimonialsAndReview>
+            <BlogPost></BlogPost>
         </>
     );
 };

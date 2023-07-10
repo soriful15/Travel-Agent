@@ -13,7 +13,7 @@ const TestimonialsAndReview = () => {
         <>
             <div className='text-center mt-16'>
                 <h1 className='text-[#FF3B00] text-lg md:text-[32px] '>Testimonials and Review</h1>
-                <p className='text-[#000000] text-2xl md:text-[48px] mt-5'>What They're Saying</p>
+                <p className='text-[#000000] text-4xl md:text-[48px] mt-5'>What They're Saying</p>
             </div>
 
 
@@ -35,13 +35,13 @@ const TestimonialsAndReview = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper container mx-auto  md:max-w-7xl mt-11"
+        className="mySwiper container mx-auto  md:max-w-6xl mt-11"
       >
         <SwiperSlide>  <div className='lg:ml-10 md:mr-10 md:ml-10'>
                     <img src={customerPic1} className=' md:w-[260px] md:h-[260px] ' alt="" />
                 </div>
                 <div className='lg:w-[352px]  text-center shadow-2xl border py-10 px-1 md:px-4 mt-4 '>
-                    <div className='flex items-center justify-center gap-1  md:px-0'>
+                    <div className='flex items-center justify-center md:gap-1 px-1 md:px-0'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
@@ -61,7 +61,7 @@ const TestimonialsAndReview = () => {
                     <img src={customerPic2} className='md:w-[260px] md:h-[260px] ' alt="" />
                 </div>
                 <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4'>
-                    <div className='flex items-center justify-center gap-1'>
+                    <div className='flex items-center justify-center md:gap-1 px-1'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
@@ -81,7 +81,7 @@ const TestimonialsAndReview = () => {
                     <img src={customerPic3} className='md:w-[260px] md:h-[260px]' alt="" />
                 </div>
                 <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4'>
-                    <div className='flex items-center justify-center gap-1'>
+                    <div className='flex items-center justify-center md:gap-1 px-1'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
@@ -103,7 +103,7 @@ const TestimonialsAndReview = () => {
                     <img src={customerPic3} className='md:w-[260px] md:h-[260px]' alt="" />
                 </div>
                 <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4'>
-                    <div className='flex items-center justify-center gap-1'>
+                    <div className='flex items-center justify-center md:gap-1 px-1'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
@@ -126,7 +126,7 @@ const TestimonialsAndReview = () => {
                     <img src={customerPic3} className='md:w-[260px] md:h-[260px]' alt="" />
                 </div>
                 <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4'>
-                    <div className='flex items-center justify-center gap-1'>
+                    <div className='flex items-center justify-center md:gap-1 px-1'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
