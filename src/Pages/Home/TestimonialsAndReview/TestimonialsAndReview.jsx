@@ -35,12 +35,13 @@ const TestimonialsAndReview = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper container mx-auto  md:max-w-6xl mt-11"
+        className="mySwiper container mx-auto  md:max-w-6xl lg:h-[650px] mt-11"
       >
-        <SwiperSlide>  <div className='lg:ml-10 md:mr-10 md:ml-10'>
+        <SwiperSlide>  
+            <div className='lg:ml-10 md:mr-10 md:ml-10'>
                     <img src={customerPic1} className=' md:w-[260px] md:h-[260px] ' alt="" />
                 </div>
-                <div className='lg:w-[352px]  text-center shadow-2xl border py-10 px-1 md:px-4 mt-4 '>
+                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4  '>
                     <div className='flex items-center justify-center md:gap-1 px-1 md:px-0'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
@@ -56,11 +57,12 @@ const TestimonialsAndReview = () => {
                             <p className='text-[#FF3B00]'>Customer</p>
                         </div>
                     </div>
-                </div></SwiperSlide>
+                </div>
+                </SwiperSlide>
         <SwiperSlide>  <div className='lg:ml-10 md:mr-10 md:ml-10'>
                     <img src={customerPic2} className='md:w-[260px] md:h-[260px] ' alt="" />
                 </div>
-                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4'>
+                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4 '>
                     <div className='flex items-center justify-center md:gap-1 px-1'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
@@ -80,7 +82,7 @@ const TestimonialsAndReview = () => {
         <SwiperSlide>  <div className='lg:ml-10 md:mr-10 md:ml-10'>
                     <img src={customerPic3} className='md:w-[260px] md:h-[260px]' alt="" />
                 </div>
-                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4'>
+                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4 '>
                     <div className='flex items-center justify-center md:gap-1 px-1'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
@@ -102,7 +104,7 @@ const TestimonialsAndReview = () => {
                 <SwiperSlide>  <div className='lg:ml-10 md:mr-10 md:ml-10'>
                     <img src={customerPic3} className='md:w-[260px] md:h-[260px]' alt="" />
                 </div>
-                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4'>
+                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4 '>
                     <div className='flex items-center justify-center md:gap-1 px-1'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
@@ -125,7 +127,7 @@ const TestimonialsAndReview = () => {
                 <SwiperSlide>  <div className='lg:ml-10 md:mr-10 md:ml-10'>
                     <img src={customerPic3} className='md:w-[260px] md:h-[260px]' alt="" />
                 </div>
-                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4'>
+                <div className='lg:w-[352px] text-center shadow-2xl border py-10 px-1 md:px-4 mt-4 '>
                     <div className='flex items-center justify-center md:gap-1 px-1'>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
                         <p className='text-[#FF3B00]'><FaStar></FaStar></p>
