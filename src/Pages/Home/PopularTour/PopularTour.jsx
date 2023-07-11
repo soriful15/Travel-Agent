@@ -6,7 +6,7 @@ import { FaBookmark, FaStar,FaArrowRight,FaArrowLeft } from "react-icons/fa";
 const PopularTour = () => {
     return (
         <>
-            <div className='container mx-auto max-w-7xl mt-16 relative'>
+            <div className='container mx-auto max-w-7xl mt-96 md:mt-[300px] lg:mt-48 relative'>
                 <h2 className='text-5xl text-black text-center lg:text-left'>Most Popular Tours</h2>
                 <div className='md:flex md:items-center absolute top-20 mt-2 text-lg lg:text-xl text-center'>
                     <p className='text-gray-500 md:ml-3 mt-1'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
