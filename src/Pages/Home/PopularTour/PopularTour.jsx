@@ -10,7 +10,7 @@ const PopularTour = () => {
                 <h2 className='text-5xl text-black text-center lg:text-left'>Most Popular Tours</h2>
                 <div className='md:flex md:items-center absolute top-20 mt-2 text-lg lg:text-xl text-center'>
                     <p className='text-gray-500 md:ml-3 mt-1'>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <p className='md:text-gray-500 md:mr-14 mt-2 lg:mt-0  lg:ml-[340px] md:ml-[130px] text-amber-800'>View All Tour</p>
+                    <p className='md:text-gray-500 md:mr-14 mt-2 lg:mt-0  lg:ml-[340px] md:ml-[115px] text-amber-800'>View All Tour</p>
                 </div>
             </div>
             <div className="carousel w-full md:max-w-7xl md:container lg:ml-72 md:mx-auto mt-6 ">
