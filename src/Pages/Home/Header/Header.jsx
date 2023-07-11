@@ -210,7 +210,7 @@ const Header = () => {
                             <p className='text-[#FFFFFF] bg-[#FF3B00] md:h-[57px] w-[62px] md:w-[120px] lg:w-[200px] border px-1 py-1 md:px-4 md:py-2 text-center'>Hotel</p>
                             <p className='bg-opacity-[25%] md:h-[57px] w-[64px] md:w-[120px] lg:w-[260px] border md:px-4 px-1 py-1 md:py-2 text-center'>Flights</p>
                             <p className='bg-opacity-[25%] md:h-[57px] w-[64px] md:w-[120px] lg:w-[260px] border md:px-4 px-1 py-1 md:py-2 text-center'>Car</p>
-                            <p className='bg-opacity-[25%] md:h-[57px] w-[64px] md:w-[120px] lg:w-[260px] border md:px-4 px-1 py-1 md:py-2 text-center'>Package</p>
+                            <p className='bg-opacity-[25%] md:h-[57px] w-[64px] md:w-[120px] lg:w-[260px] border md:px-4  py-1 md:py-2 text-center'>Package</p>
                             <p className='bg-opacity-[25%] md:h-[57px] w-[64px] md:w-[120px] lg:w-[260px] border md:px-4 px-1 py-1 md:py-2 text-center'>Cruise</p>
                             <p className='bg-opacity-[25%] md:h-[57px] w-[64px] md:w-[120px] lg:w-[260px] border md:px-4 px-1 py-1 md:py-2 text-center'>Holiday</p>
                         </div>
@@ -272,7 +272,6 @@ const Header = () => {
 
 
                     <div className="navbar lg:text-white text-violet-400 font-semibold lg:px-52 absolute bottom-[520px]">
-                    {/* <div className="navbar bg-base-100 lg:px-52 absolute -top-0"> */}
                     <div className="navbar-start">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
