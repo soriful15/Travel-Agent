@@ -8,11 +8,11 @@ const Section9 = () => {
     return (
         <>
            <div className='mt-20 lg:flex md:grid md:grid-cols-5'>
-            <img src={img3} className='w-full h-full' alt="" />
-            <img src={img5} className='w-full h-full' alt="" />
-            <img src={img4} className='w-full h-full' alt="" />
-            <img src={img2} className='w-full h-full' alt="" />
-            <img src={img1} className='w-full h-full' alt="" />
+            <img src={img3} className='w-full h-full lg:h-[284px]' alt="" />
+            <img src={img5} className='w-full h-full lg:h-[284px]' alt="" />
+            <img src={img4} className='w-full h-full lg:h-[284px]' alt="" />
+            <img src={img2} className='w-full h-full lg:h-[284px]' alt="" />
+            <img src={img1} className='w-full h-full lg:h-[284px]' alt="" />
            </div>
         </>
     );

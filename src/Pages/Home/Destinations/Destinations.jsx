@@ -8,7 +8,7 @@ import image6 from '../../../assets/Top Destinations Photo/Rectangle 28.png';
 const Destinations = () => {
     return (
         <>
-            <div className='container mx-auto max-w-7xl'>
+            <div className='container mx-auto max-w-7xl mt-16'>
                 <h2 className='text-5xl text-black text-center lg:text-left'>Top Destinations</h2>
                 <div className='lg:flex lg:justify-between mt-2 text-lg lg:text-xl text-center'>
                     <p className='text-gray-500'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, corporis.</p>

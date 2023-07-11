@@ -13,7 +13,7 @@ const Stories = () => {
             <div className='container mx-auto max-w-7xl mt-16'>
 
                 <div className='text-center lg:text-left'>
-                    <h2 className='text-5xl text-black '>Top Destinations</h2>
+                    <h2 className='text-5xl text-black '>Interesting Stories</h2>
                     <p className='text-gray-500 text-lg lg:text-xl mt-2'>Watch and be inspired</p>
                 </div>
 
