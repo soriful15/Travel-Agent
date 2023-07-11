@@ -5,7 +5,8 @@ import location from '../../../assets/BannerPic/Group 10.png'
 import check from '../../../assets/BannerPic/user.png'
 import checkOut from '../../../assets/BannerPic/user-x.png'
 import travelers from '../../../assets/BannerPic/Group 20.png'
-import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
+// import vector from '../../../assets/BannerPic/Vector.png'
+import { FaArrowRight, FaArrowLeft, FaAngleDown } from "react-icons/fa";
 import Ellipse from '../../../assets/Ellipse/Ellipse.png'
 import { FaSearch } from "react-icons/fa";
 import { NavLink } from 'react-router-dom';
@@ -13,7 +14,7 @@ const Header = () => {
 
     const navBarOptions = <>
 
-        <li className=''> <NavLink to='/' title='' className={({ isActive }) => isActive ? "text-[#FF3B00] py-2  border-b-4 border-white" : ''}>
+ <li className=''> <NavLink to='/' title='' className={({ isActive }) => isActive ? "text-[#FF3B00]   lg:border-b-2 rounded-none border-slate-300 " : ''}>
             Home
         </NavLink></li>
         <li>
@@ -36,45 +37,33 @@ const Header = () => {
 
     return (
         <>
-            <div>
+           
 
 
-                <div className="navbar bg-base-100 lg:px-52">
+                {/* <div className="navbar bg-base-100 lg:px-52 ">
                     <div className="navbar-start">
                         <div className="dropdown">
                             <label tabIndex={0} className="btn btn-ghost lg:hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </label>
                             <div >
-                                <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 lg:mr-96">
+                                <ul tabIndex={0} className="menu menu-sm dropdown-content text-[] mt-3 z-[1] p-2 shadow rounded-box w-52 lg:mr-96">
 
                                     <div className='lg:ml-5'>
                                         <ul className='lg:flex gap-3 '>
                                             <li><a>Support</a></li>
-                                            <li>
-                                                <details>
-                                                    <summary>USD</summary>
-                                                    <ul className="p-2">
-                                                        <li><a>Submenu 1</a></li>
-                                                        <li><a>Submenu 2</a></li>
-                                                    </ul>
-                                                </details>
-                                            </li>
+
                                             <li className='flex justify-center lg:items-center gap-2'>
-
-                                                <div>
+                                                <div className='flex items-center'>
+                                                    <p>USD</p>
+                                                    <p><FaAngleDown></FaAngleDown></p>
+                                                </div>
+                                                <div className='flex items-center gap-2'>
                                                     <img src={Ellipse} alt="" />
+                                                    <p>EN</p>
+                                                    <p><FaAngleDown></FaAngleDown></p>
                                                 </div>
-                                                <div>
-                                                    <details>
 
-                                                        <summary>EN</summary>
-                                                        <ul className="p-2">
-                                                            <li><a>Submenu 1</a></li>
-                                                            <li><a>Submenu 2</a></li>
-                                                        </ul>
-                                                    </details>
-                                                </div>
                                             </li>
                                         </ul>
                                     </div>
@@ -88,35 +77,23 @@ const Header = () => {
                         </div>
 
                     </div>
-                    <div className="navbar-center hidden lg:flex lg:mr-96">
+                    <div className="navbar-center hidden lg:flex lg:mr-96 text-[]">
                         <div>
                             <div className='lg:ml-5'>
                                 <ul className='lg:flex gap-3 '>
                                     <li><a>Support</a></li>
-                                    <li>
-                                        <details>
-                                            <summary>USD</summary>
-                                            <ul className="p-2">
-                                                <li><a>Submenu 1</a></li>
-                                                <li><a>Submenu 2</a></li>
-                                            </ul>
-                                        </details>
-                                    </li>
+
                                     <li className='flex justify-center lg:items-center gap-2'>
-
-                                        <div>
+                                        <div className='flex items-center'>
+                                            <p>USD</p>
+                                            <p><FaAngleDown></FaAngleDown></p>
+                                        </div>
+                                        <div className='flex items-center gap-2'>
                                             <img src={Ellipse} alt="" />
+                                            <p>EN</p>
+                                            <p><FaAngleDown></FaAngleDown></p>
                                         </div>
-                                        <div>
-                                            <details>
 
-                                                <summary>EN</summary>
-                                                <ul className="p-2">
-                                                    <li><a>Submenu 1</a></li>
-                                                    <li><a>Submenu 2</a></li>
-                                                </ul>
-                                            </details>
-                                        </div>
                                     </li>
                                 </ul>
 
@@ -133,24 +110,19 @@ const Header = () => {
                     </div>
                     <div className="navbar-end flex-col ">
                         <div>
-                            <p className='mb-3 text-[
-16px]'>Sing Up/Sing In</p>
+                            <p className='mb-3 text-[16px]'>Sing Up/Sing In</p>
                         </div>
                         <div>
                             <a className="text-2xl"><FaSearch></FaSearch></a>
                         </div>
                     </div>
-                </div>
+                </div> */}
 
 
 
 
 
                 <div className='relative'>
-
-
-
-
                     <div className="carousel w-full h-[732px]">
                         <div id="slide1" className="carousel-item relative w-full">
                             <img src={banner} className="w-full " />
@@ -295,6 +267,87 @@ const Header = () => {
                     </div>
 
 
+
+
+
+
+                    <div className="navbar lg:text-white text-violet-400 font-semibold lg:px-52 absolute bottom-[520px]">
+                    {/* <div className="navbar bg-base-100 lg:px-52 absolute -top-0"> */}
+                    <div className="navbar-start">
+                        <div className="dropdown">
+                            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                            </label>
+                            <div >
+                                <ul tabIndex={0} className="menu menu-sm dropdown-content text-[] mt-3 z-[1] p-2 shadow rounded-box w-52 lg:mr-96">
+
+                                    <div className='lg:ml-5'>
+                                        <ul className='lg:flex gap-3 '>
+                                            <li><a>Support</a></li>
+
+                                            <li className='flex justify-center lg:items-center gap-2'>
+                                                <div className='flex items-center'>
+                                                    <p>USD</p>
+                                                    <p><FaAngleDown></FaAngleDown></p>
+                                                </div>
+                                                <div className='flex items-center gap-2'>
+                                                    <img src={Ellipse} alt="" />
+                                                    <p>EN</p>
+                                                    <p><FaAngleDown></FaAngleDown></p>
+                                                </div>
+
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    {navBarOptions}
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div>
+                            <img src={logo} alt="" />
+                        </div>
+
+                    </div>
+                    <div className="navbar-center hidden lg:flex lg:mr-96 text-[]">
+                        <div>
+                            <div className='lg:ml-5'>
+                                <ul className='lg:flex gap-3 '>
+                                    <li><a>Support</a></li>
+
+                                    <li className='flex justify-center lg:items-center gap-2'>
+                                        <div className='flex items-center'>
+                                            <p>USD</p>
+                                            <p><FaAngleDown></FaAngleDown></p>
+                                        </div>
+                                        <div className='flex items-center gap-2'>
+                                            <img src={Ellipse} alt="" />
+                                            <p>EN</p>
+                                            <p><FaAngleDown></FaAngleDown></p>
+                                        </div>
+
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                            <ul className="menu menu-horizontal px-1">
+
+
+                                {navBarOptions}
+                            </ul>
+
+
+                        </div>
+                    </div>
+                    <div className="navbar-end flex-col ">
+                        <div>
+                            <p className='mb-3 text-[16px]'>Sing Up/Sing In</p>
+                        </div>
+                        <div>
+                            <a className="text-2xl"><FaSearch></FaSearch></a>
+                        </div>
+                    </div>
                 </div>
 
 
@@ -302,7 +355,19 @@ const Header = () => {
 
 
 
-            </div>
+
+
+
+
+
+                </div>
+
+
+
+
+
+
+       
 
 
 
