@@ -1,8 +1,7 @@
 import React from 'react';
 import popularImage1 from '../../../assets/PopularImage/Rectangle 21.png'
 import popularImage2 from '../../../assets/PopularImage/Rectangle 22.png'
-import { FaBookmark, FaStar } from "react-icons/fa";
-
+import { FaBookmark, FaStar,FaArrowRight,FaArrowLeft } from "react-icons/fa";
 
 const PopularTour = () => {
     return (
@@ -78,8 +77,8 @@ const PopularTour = () => {
                         </div>
                     </div>
                     <div className="absolute flex justify-end gap-5  -top-0  right-2  md:left-10  lg:right-44 ">
-                        <a href="#slide4" className="btn btn-circle rounded-full">❮</a>
-                        <a href="#slide2" className="btn btn-circle rounded-full ">❯</a>
+                        <a href="#slide4" className="btn btn-circle bg-[#C2B9B9] text-white"><FaArrowLeft></FaArrowLeft></a>
+                        <a href="#slide2" className="btn btn-circle bg-[#C2B9B9] text-white "><FaArrowRight></FaArrowRight></a>
                     </div>
                 </div>
                 <div id="slide2" className="carousel-item relative w-full flex flex-col">
@@ -144,8 +143,8 @@ const PopularTour = () => {
                         </div>
                     </div>
                     <div className="absolute flex justify-end gap-5  -top-0  right-2  md:left-10  lg:right-44 ">
-                        <a href="#slide1" className="btn btn-circle rounded-full">❮</a>
-                        <a href="#slide3" className="btn btn-circle rounded-full">❯</a>
+                        <a href="#slide1" className="btn btn-circle bg-[#C2B9B9] text-white"><FaArrowLeft></FaArrowLeft></a>
+                        <a href="#slide3" className="btn btn-circle bg-[#C2B9B9] text-white"><FaArrowRight></FaArrowRight></a>
                     </div>
                 </div>
                 <div id="slide3" className="carousel-item relative w-full flex flex-col">
@@ -210,8 +209,8 @@ const PopularTour = () => {
                         </div>
                     </div>
                     <div className="absolute flex justify-end gap-5  -top-0  right-2  md:left-10  lg:right-44 ">
-                        <a href="#slide2" className="btn btn-circle rounded-full">❮</a>
-                        <a href="#slide4" className="btn btn-circle rounded-full">❯</a>
+                        <a href="#slide2" className="btn btn-circle bg-[#C2B9B9] text-white"><FaArrowLeft></FaArrowLeft></a>
+                        <a href="#slide4" className="btn btn-circle bg-[#C2B9B9] text-white"><FaArrowRight></FaArrowRight></a>
                     </div>
                 </div>
                 <div id="slide4" className="carousel-item relative w-full flex flex-col">
@@ -276,8 +275,8 @@ const PopularTour = () => {
                         </div>
                     </div>
                     <div className="absolute flex justify-end gap-5  -top-0  right-2  md:left-10  lg:right-44 ">
-                        <a href="#slide3" className="btn btn-circle rounded-full">❮</a>
-                        <a href="#slide1" className="btn btn-circle rounded-full">❯</a>
+                        <a href="#slide3" className="btn btn-circle bg-[#C2B9B9] text-white"><FaArrowLeft></FaArrowLeft></a>
+                        <a href="#slide1" className="btn btn-circle bg-[#C2B9B9] text-white"><FaArrowRight></FaArrowRight></a>
                     </div>
                 </div>
             </div>

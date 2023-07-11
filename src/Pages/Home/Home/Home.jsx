@@ -1,5 +1,4 @@
 import React from 'react';
-import Banner from '../Banner/Banner';
 import Destinations from '../Destinations/Destinations';
 import Stories from '../Stories/Stories';
 import Section4 from '../section4/Section4';
@@ -11,7 +10,6 @@ import PopularTour from '../PopularTour/PopularTour';
 const Home = () => {
     return (
         <>
-            <Banner></Banner>
             <PopularTour></PopularTour>
             <Destinations></Destinations>
             <Stories></Stories>
