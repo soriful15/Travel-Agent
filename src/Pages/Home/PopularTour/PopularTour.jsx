@@ -17,7 +17,7 @@ const PopularTour = () => {
                 <div id="slide1" className="carousel-item relative w-full flex flex-col"> 
                     <div className=" md:flex items-center h-full  gap-5 rounded-2xl mt-16">
                         <div className='relative'>
-                            <img src={popularImage1} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
+                            <img src={popularImage2} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
 
                             <div className='absolute top-5 left-10'>
                                 <div className='flex justify-between items-center'>
@@ -47,7 +47,7 @@ const PopularTour = () => {
                         </div>
 
                         <div className='relative'>
-                            <img src={popularImage2} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
+                            <img src={popularImage1} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
 
                             <div className='absolute top-5 left-10'>
                                 <div className='flex justify-between items-center'>
@@ -84,7 +84,7 @@ const PopularTour = () => {
                 <div id="slide2" className="carousel-item relative w-full flex flex-col">
                     <div className="md:flex items-center h-full  gap-5 rounded-2xl mt-16">
                         <div className='relative'>
-                            <img src={popularImage1} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
+                            <img src={popularImage2} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
 
                             <div className='absolute top-5 left-10'>
                                 <div className='flex justify-between items-center'>
@@ -113,7 +113,7 @@ const PopularTour = () => {
                             </div>
                         </div>
                         <div className='relative'>
-                            <img src={popularImage2} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
+                            <img src={popularImage1} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
 
                             <div className='absolute top-5 left-10'>
                                 <div className='flex justify-between items-center'>
@@ -150,7 +150,7 @@ const PopularTour = () => {
                 <div id="slide3" className="carousel-item relative w-full flex flex-col">
                     <div className="md:flex items-center h-full  gap-5 rounded-2xl mt-16">
                         <div className='relative'>
-                            <img src={popularImage1} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
+                            <img src={popularImage2} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
 
                             <div className='absolute top-5 left-10'>
                                 <div className='flex justify-between items-center'>
@@ -179,7 +179,7 @@ const PopularTour = () => {
                             </div>
                         </div>
                         <div className='relative'>
-                            <img src={popularImage2} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
+                            <img src={popularImage1} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
 
                             <div className='absolute top-5 left-10'>
                                 <div className='flex justify-between items-center'>
@@ -216,7 +216,7 @@ const PopularTour = () => {
                 <div id="slide4" className="carousel-item relative w-full flex flex-col">
                     <div className="md:flex items-center h-full  gap-5 rounded-2xl mt-16">
                         <div className='relative'>
-                            <img src={popularImage1} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
+                            <img src={popularImage2} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
 
                             <div className='absolute top-5 left-10'>
                                 <div className='flex justify-between items-center'>
@@ -245,7 +245,7 @@ const PopularTour = () => {
                             </div>
                         </div>
                         <div className='relative'>
-                            <img src={popularImage2} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
+                            <img src={popularImage1} className='md:w-[550px] md:h-[300px] w-full h-full' alt="" />
 
                             <div className='absolute top-5 left-10'>
                                 <div className='flex justify-between items-center'>

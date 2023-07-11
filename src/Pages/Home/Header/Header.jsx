@@ -145,6 +145,9 @@ const Header = () => {
           <a href="#slide2" className="btn btn-circle bg-[#C2B9B9] text-white"><FaArrowRight></FaArrowRight></a>
         </div>
       </div>
+
+
+
       <div id="slide2" className="carousel-item relative w-full">
         <img src={banner} className="w-full" />
         <div className="absolute flex items-center h-full  gap-5 transform  left-0  top-0  bg-gradient-to-r  rounded-2xl">
@@ -181,7 +184,7 @@ const Header = () => {
       </div>
     </div>
 
-
+fgthfgjhgfj
 
 
 
